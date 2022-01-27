@@ -1,4 +1,4 @@
-# xteve
+# xteve for Arm64v8
 xteve, in docker with cron
 
 docker runs in host mode \
@@ -26,7 +26,7 @@ docker run -d \
   -v /mnt/user/appdata/xteve/_config:/config:rw \
   -v /tmp/xteve/:/tmp/xteve:rw \
   -v /mnt/user/appdata/tvheadend/data/:/TVH \
-  alturismo/xteve
+  quay.io/fatihboy/xteve-arm64v8
 ```
 
 to test the cronjob functions \
